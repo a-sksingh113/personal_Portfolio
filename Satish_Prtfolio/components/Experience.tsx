@@ -3,7 +3,7 @@ import React from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 
-const Experience = () => {
+const   Experience = () => {
   return (
     <div className="py-20 w-full">
       <h1 className="heading Viga">
