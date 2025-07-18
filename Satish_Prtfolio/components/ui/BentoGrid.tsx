@@ -1,12 +1,22 @@
+"use client";
+
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
 
 import { cn } from "@/lib/utils";
 
-import { BackgroundGradientAnimation } from "./GradientBg";
+const BackgroundGradientAnimation = dynamic(
+  () =>
+    import("@/components/ui/GradientBg").then(
+      (mod) => mod.BackgroundGradientAnimation
+    ),
+  { ssr: false }
+);
+
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "debug": "npm run lint && npm run build && npx tsc --noEmit"
   },
   "dependencies": {
     "@react-three/drei": "^9.105.4",

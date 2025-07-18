@@ -2,6 +2,24 @@
 import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
+
+type Props = {
+  gradientBackgroundStart?: string;
+  gradientBackgroundEnd?: string;
+  firstColor?: string;
+  secondColor?: string;
+  thirdColor?: string;
+  fourthColor?: string;
+  fifthColor?: string;
+  pointerColor?: string;
+  size?: string;
+  blendingValue?: string;
+  children?: React.ReactNode;
+  className?: string;
+  interactive?: boolean;
+  containerClassName?: string;
+};
+
 export const BackgroundGradientAnimation = ({
   gradientBackgroundStart = "rgb(108, 0, 162)",
   gradientBackgroundEnd = "rgb(0, 17, 82)",
@@ -40,24 +58,24 @@ export const BackgroundGradientAnimation = ({
   const [tgX, setTgX] = useState(0);
   const [tgY, setTgY] = useState(0);
   useEffect(() => {
-     if (typeof document !== "undefined"){
+     if (typeof window !== "undefined" && typeof document !== "undefined") {
        document.body.style.setProperty(
          "--gradient-background-start",
          gradientBackgroundStart
        );
-    document.body.style.setProperty(
-      "--gradient-background-end",
-      gradientBackgroundEnd
-    );
-    document.body.style.setProperty("--first-color", firstColor);
-    document.body.style.setProperty("--second-color", secondColor);
-    document.body.style.setProperty("--third-color", thirdColor);
-    document.body.style.setProperty("--fourth-color", fourthColor);
-    document.body.style.setProperty("--fifth-color", fifthColor);
-    document.body.style.setProperty("--pointer-color", pointerColor);
-    document.body.style.setProperty("--size", size);
-    document.body.style.setProperty("--blending-value", blendingValue);
-  }}, []);
+       document.body.style.setProperty(
+         "--gradient-background-end",
+         gradientBackgroundEnd
+       );
+       document.body.style.setProperty("--first-color", firstColor);
+       document.body.style.setProperty("--second-color", secondColor);
+       document.body.style.setProperty("--third-color", thirdColor);
+       document.body.style.setProperty("--fourth-color", fourthColor);
+       document.body.style.setProperty("--fifth-color", fifthColor);
+       document.body.style.setProperty("--pointer-color", pointerColor);
+       document.body.style.setProperty("--size", size);
+       document.body.style.setProperty("--blending-value", blendingValue);
+     }}, []);
 
   useEffect(() => {
     function move() {
