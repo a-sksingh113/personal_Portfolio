@@ -16,7 +16,6 @@ const Footer = () => {
           alt="grid"
           className="w-full h-full opacity-50 object-cover"
         />
-        
       </div>
 
       <div className="flex flex-col items-center">
@@ -29,7 +28,7 @@ const Footer = () => {
           achieve your goals.
         </p>
         <a
-          href="https://drive.google.com/file/d/19TA21KInWXoao6-5s1NO13mTUyo4iG1x/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1HS054uHf36mwHO5TnhmvDj4GeeKMa7t0/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
         >
