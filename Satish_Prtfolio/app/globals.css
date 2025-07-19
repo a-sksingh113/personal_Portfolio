@@ -84,13 +84,13 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https: //fonts.googleapis.com/css2?family=Zen Dots&display=swap');
-@import url('https: //fonts.googleapis.com/css2?family=Ysabeau Infant&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Ysabeau Infant&display=swap'); */
 @import url('https: //fonts.googleapis.com/css2?family=Viga&display=swap');
 
 
-
+/* 
 .Zen_Dots {
   font-family: "Zen Dots", cursive;
 }
@@ -101,7 +101,7 @@
 
 .Ysabeau_Infant {
   font-family: "Ysabeau Infant", cursive;
-}
+} */
 
 .Viga {
   font-family: "Viga", cursive;
