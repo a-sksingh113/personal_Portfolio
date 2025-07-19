@@ -56,9 +56,9 @@ const Hero = () => {
             Based on India
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
-              title="Show my Education"
+              title="Show my Projects"
               icon={<FaLocationArrow />}
               position="right"
             />
