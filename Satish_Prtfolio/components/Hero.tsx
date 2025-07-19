@@ -48,7 +48,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Hi, I’m Satish Singh — A Web Developer Who Loves Clean Code & Creative Design"
+            words="Hi,I’m Satish, A Web Developer & CP enthusiast"
             className="text-center text-[40px] md:text-5xl lg:text-6xl Viga"
           />
 
