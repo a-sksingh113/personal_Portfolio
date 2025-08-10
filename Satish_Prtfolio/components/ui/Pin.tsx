@@ -67,9 +67,6 @@ export const PinPerspective = ({
             <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-emerald-400/90 to-emerald-400/0"></span>
           </a>
         </div>
-
-        {/* Removed animated ripples */}
-        {/* Removed motion divs for beams and circles */}
       </div>
     </motion.div>
   );

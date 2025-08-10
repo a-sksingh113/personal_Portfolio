@@ -41,7 +41,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal Viga font-light">
-          Copyright © 2025 Satish Kumar Singh <br />
+          Copyright © 2023 Satish Kumar Singh <br />
           Email: i.sksingh113@gmail.com
           <br />
           Phone: +91 8112590073
