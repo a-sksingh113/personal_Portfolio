@@ -101,6 +101,7 @@ export const projects = [
       "/cloud.svg",
       "/redis.svg",
     ],
+    //testing
     link: "https://jobhunt.pixbit.me",
   },
   {
