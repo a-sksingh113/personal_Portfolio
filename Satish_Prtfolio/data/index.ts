@@ -106,6 +106,24 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Clear-Signal - Practice AI/ML Questions, like leetcode",
+    des: "Clear-Signal is a platform where Students can practice AI/ML questions, like leetcode.",
+    img: "/clearS.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/dock.svg",
+      "/nodejs.svg",
+      "/mongodb.svg",
+      "/cloud.svg",
+      "/redis.svg",
+    ],
+
+    link: "https://frontend-server-for-clear-signal.vercel.app",
+  },
+  {
+    id: 4,
     title: "Gausej - Tech startup platform for entrepreneurs",
     des: "Gausej is a tech startup platform designed to empower entrepreneurs by providing the tools, resources, and support they need to launch and grow their ventures.",
     img: "/p3.png",
@@ -121,7 +139,7 @@ export const projects = [
     link: "https://gausej.tech",
   },
   {
-    id: 4,
+    id: 5,
     title: "Zaroorat - A crowdfunding platform for UAE client",
     des: "Zarrorat is a crowdfunding platform tailored for UAE client, enabling individuals and organizations to raise funds for meaningful causes and innovative projects.",
     img: "/p4.png",
@@ -136,7 +154,7 @@ export const projects = [
     link: "https://www.zaroorat.xyz",
   },
   {
-    id: 5,
+    id: 6,
     title: "Icche - Website for my college society at IIEST, Shibpur",
     des: "Icche is the official website of our college society at IIEST, Shibpur, showcasing our initiatives, events, and efforts to educate and support underprivileged children through evening school programs.",
     img: "/p5.png",
@@ -152,7 +170,7 @@ export const projects = [
     link: "https://icche.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title:
       "ProbateForm - Document generation platform for Bombay and Delhi High Court",
     des: "ProbateForm is a document generation platform tailored for the Bombay and Delhi High Courts, streamlining the creation of legal probate documents with accuracy and efficiency.",
