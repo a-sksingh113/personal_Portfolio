@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Favorselect - E-commerce website",
-    des: " A full-featured e-commerce website for Turkish clients.",
+    des: " A full-featured e-commerce website based on US for Turkey client.",
     img: "/p1.png",
     iconLists: [
       "/next.svg",
@@ -108,7 +108,7 @@ export const projects = [
     id: 3,
     title: "Clear-Signal - Practice AI/ML Questions, like leetcode",
     des: "Clear-Signal is a platform where Students can practice AI/ML questions, like leetcode.",
-    img: "/clearS.png",
+    img: "/clear12.png",
     iconLists: [
       "/re.svg",
       "/tail.svg",
