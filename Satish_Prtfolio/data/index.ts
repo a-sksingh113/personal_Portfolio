@@ -119,11 +119,27 @@ export const projects = [
       "/cloud.svg",
       "/redis.svg",
     ],
-//testing
+    //testing
     link: "https://frontend-server-for-clear-signal.vercel.app",
   },
   {
     id: 4,
+    title: "Kalvakhy - E commerce startup for jewellry",
+    des: "Kalvakhy is E commerce startup for jewellry products.",
+    img: "/kalvakhy.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/mongodb.svg",
+      "/nodejs.svg",
+      "/cloud.svg",
+      "/redis.svg",
+    ],
+    link: "https://www.kalvakhy.com",
+  },
+  {
+    id: 5,
     title: "Gausej - Tech startup platform for entrepreneurs",
     des: "Gausej is a tech startup platform designed to empower entrepreneurs by providing the tools, resources, and support they need to launch and grow their ventures.",
     img: "/p3.png",
@@ -139,7 +155,7 @@ export const projects = [
     link: "https://gausej.tech",
   },
   {
-    id: 5,
+    id: 6,
     title: "Zaroorat - A crowdfunding platform for UAE client",
     des: "Zarrorat is a crowdfunding platform tailored for UAE client, enabling individuals and organizations to raise funds for meaningful causes and innovative projects.",
     img: "/p4.png",
@@ -154,7 +170,7 @@ export const projects = [
     link: "https://www.zaroorat.xyz",
   },
   {
-    id: 6,
+    id: 7,
     title: "Icche - Website for my college society at IIEST, Shibpur",
     des: "Icche is the official website of our college society at IIEST, Shibpur, showcasing our initiatives, events, and efforts to educate and support underprivileged children through evening school programs.",
     img: "/p5.png",
@@ -170,7 +186,7 @@ export const projects = [
     link: "https://icche.vercel.app",
   },
   {
-    id: 7,
+    id: 8,
     title:
       "ProbateForm - Document generation platform for Bombay and Delhi High Court",
     des: "ProbateForm is a document generation platform tailored for the Bombay and Delhi High Courts, streamlining the creation of legal probate documents with accuracy and efficiency.",
