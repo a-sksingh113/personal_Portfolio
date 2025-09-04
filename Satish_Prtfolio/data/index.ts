@@ -106,9 +106,9 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Clear-Signal - Practice AI/ML Questions, like leetcode",
-    des: "Clear-Signal is a platform where Students can practice AI/ML questions, like leetcode.",
-    img: "/clear12.png",
+    title: "PixelBank - Practice AI/ML Questions, like leetcode",
+    des: "PixelBank is a platform where Students can practice AI/ML questions, like leetcode.",
+    img: "/pixelbank.png",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -120,7 +120,7 @@ export const projects = [
       "/redis.svg",
     ],
     //testing
-    link: "https://frontend-server-for-clear-signal.vercel.app",
+    link: "https://pixelbank.dev",
   },
   {
     id: 4,
