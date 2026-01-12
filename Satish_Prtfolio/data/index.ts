@@ -89,6 +89,56 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Miorish - Handmade Candles E-commerce website",
+    des: " A full-featured e-commerce website for handmade candles based in India",
+    img: "/miorish.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nodejs.svg",
+      "/fm.svg",
+      "/mysql.svg",
+      "/aws.svg",
+    ],
+    link: "https://miorish.com",
+  },
+  {
+    id: 3,
+    title: "Graho - Astrology website ",
+    des: " A full-featured astrology website based in India.",
+    img: "/graho.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nodejs.svg",
+      "/fm.svg",
+      "/mysql.svg",
+      "/aws.svg",
+      "/stripe.svg",
+      "/redis.svg",
+    ],
+    link: "https://graho.in",
+  },
+  {
+    id: 4,
+    title: "Gmp Rentals -Estate rental website ",
+    des: " A full-featured estate rental website based in US",
+    img: "/gmp.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nodejs.svg",
+      "/fm.svg",
+      "/mysql.svg",
+      "/aws.svg",
+    ],
+    link: "https://app.gmprentals.com",
+  },
+  {
+    id: 5,
     title: "JobHunt - Find Jobs & Hire Talent",
     des: "JobHunt is a platform where job seekers find opportunities and employers easily post jobs to hire top talent.",
     img: "/p2.png",
@@ -105,10 +155,10 @@ export const projects = [
     link: "https://jobhunt.pixbit.me",
   },
   {
-    id: 3,
+    id: 6,
     title: "PixelBank - Practice AI/ML Questions, like leetcode",
     des: "PixelBank is a platform where Students can practice AI/ML questions, like leetcode.",
-    img: "/pixelbank.png",
+    img: "/pix.png",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -123,7 +173,7 @@ export const projects = [
     link: "https://pixelbank.dev",
   },
   {
-    id: 4,
+    id: 7,
     title: "Kalvakhy - E commerce startup for jewellry",
     des: "Kalvakhy is E commerce startup for jewellry products.",
     img: "/kalvakhy.png",
@@ -139,10 +189,10 @@ export const projects = [
     link: "https://www.kalvakhy.com",
   },
   {
-    id: 5,
+    id: 8,
     title: "Gausej - Tech startup platform for entrepreneurs",
     des: "Gausej is a tech startup platform designed to empower entrepreneurs by providing the tools, resources, and support they need to launch and grow their ventures.",
-    img: "/p3.png",
+    img: "/gausej.png",
     iconLists: [
       "/re.svg",
       "/tail.svg",
@@ -155,7 +205,7 @@ export const projects = [
     link: "https://gausej.tech",
   },
   {
-    id: 6,
+    id: 9,
     title: "Zaroorat - A crowdfunding platform for UAE client",
     des: "Zarrorat is a crowdfunding platform tailored for UAE client, enabling individuals and organizations to raise funds for meaningful causes and innovative projects.",
     img: "/p4.png",
@@ -170,7 +220,7 @@ export const projects = [
     link: "https://www.zaroorat.xyz",
   },
   {
-    id: 7,
+    id: 10,
     title: "Icche - Website for my college society at IIEST, Shibpur",
     des: "Icche is the official website of our college society at IIEST, Shibpur, showcasing our initiatives, events, and efforts to educate and support underprivileged children through evening school programs.",
     img: "/p5.png",
@@ -186,7 +236,7 @@ export const projects = [
     link: "https://icche.vercel.app",
   },
   {
-    id: 8,
+    id: 9,
     title:
       "ProbateForm - Document generation platform for Bombay and Delhi High Court",
     des: "ProbateForm is a document generation platform tailored for the Bombay and Delhi High Courts, streamlining the creation of legal probate documents with accuracy and efficiency.",
